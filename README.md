@@ -353,34 +353,51 @@ void assert_failed(uint8_t *file, uint32_t line)
 ```
 
 ## Output screen shots of proteus  :
- 
+
+ <img width="873" height="717" alt="Screenshot 2026-03-16 193306" src="https://github.com/user-attachments/assets/e51cfb0a-cf42-42fd-94cd-894526818bd3" />
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
+ <img width="1000" height="877" alt="Screenshot 2026-03-16 193341" src="https://github.com/user-attachments/assets/6e0e2225-30d2-4842-a7b4-c20913d02aa0" />
+
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+<img width="1373" height="873" alt="Screenshot 2026-03-16 193231" src="https://github.com/user-attachments/assets/818b837e-9215-429f-9e45-87a5fa5da4c4" />
 
+```
+TON = 5 × 0.1 = 0.5
+TOFF = 5 × 0.1 = 0.5
+TOTAL TIME = TON + TOFF = 0.5 + 0.5 = 1
+FREQUENCY = 1 / (TOTAL TIME) = 1 / 1 = 1 Hz
+DUTY RATIO = TON / (TON + TOFF) = 0.5 / 1 = 0.5
+```
 FOR PULSE AT 700
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+<img width="1433" height="883" alt="Screenshot 2026-03-16 192647" src="https://github.com/user-attachments/assets/7cb23b2a-1cd9-4b66-b2ad-5325003fef47" />
 
+```
+TON = 7 × 0.1 = 0.7
+TOFF = 3 × 0.1 = 0.3
+TOTAL TIME = TON + TOFF = 0.7 + 0.3 = 1
+FREQUENCY = 1 / (TOTAL TIME) = 1 / 1 = 1 Hz
+DUTY RATIO = TON / (TON + TOFF) = 0.7 / 1 = 0.7
+```
 
 FOR PULSE AT 900
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+<img width="1377" height="882" alt="Screenshot 2026-03-16 193121" src="https://github.com/user-attachments/assets/62840894-f0ec-466b-9793-c13d28ee7667" />
 
+
+```
+TON = 9 × 0.1 = 0.9
+TOFF = 1 × 0.1 = 0.1
+TOTAL TIME = TON + TOFF = 0.9 + 0.1 = 1
+FREQUENCY = 1 / (TOTAL TIME) = 1 / 1 = 1 Hz
+DUTY RATIO = TON / (TON + TOFF) = 0.9 / 1 = 0.9
+```
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 

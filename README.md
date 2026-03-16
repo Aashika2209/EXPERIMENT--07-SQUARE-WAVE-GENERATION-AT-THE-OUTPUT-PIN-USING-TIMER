@@ -368,22 +368,37 @@ FOR PULSE AT 500
 <img width="1373" height="873" alt="Screenshot 2026-03-16 193231" src="https://github.com/user-attachments/assets/818b837e-9215-429f-9e45-87a5fa5da4c4" />
 
 ```
-TON = 5 × 0.1 = 0.5
-TOFF = 5 × 0.1 = 0.5
-TOTAL TIME = TON + TOFF = 0.5 + 0.5 = 1
-FREQUENCY = 1 / (TOTAL TIME) = 1 / 1 = 1 Hz
-DUTY RATIO = TON / (TON + TOFF) = 0.5 / 1 = 0.5
+TON = 5 × 20 µs
+TON = 100 µs
+
+TOFF = 5 × 20 µs
+TOFF = 100 µs
+
+TOTAL TIME = TON + TOFF
+TOTAL TIME = 100 + 100 = 200 µs
+
+FREQUENCY = 1 / 200 µs = 5000 Hz
+
+DUTY RATIO = TON / (TON + TOFF)
+= 100 / 200
+= 0.5 (50%)
 ```
 FOR PULSE AT 700
 
 <img width="1433" height="883" alt="Screenshot 2026-03-16 192647" src="https://github.com/user-attachments/assets/7cb23b2a-1cd9-4b66-b2ad-5325003fef47" />
 
 ```
-TON = 7 × 0.1 = 0.7
-TOFF = 3 × 0.1 = 0.3
-TOTAL TIME = TON + TOFF = 0.7 + 0.3 = 1
-FREQUENCY = 1 / (TOTAL TIME) = 1 / 1 = 1 Hz
-DUTY RATIO = TON / (TON + TOFF) = 0.7 / 1 = 0.7
+TON = 7 × 20 µs
+TON = 140 µs
+
+TOFF = 3 × 20 µs
+TOFF = 60 µs
+
+TOTAL TIME = 140 + 60 = 200 µs
+
+FREQUENCY = 1 / 200 µs = 5000 Hz
+
+DUTY RATIO = 140 / 200 = 0.7 (70%)
 ```
 
 FOR PULSE AT 900
@@ -392,11 +407,17 @@ FOR PULSE AT 900
 
 
 ```
-TON = 9 × 0.1 = 0.9
-TOFF = 1 × 0.1 = 0.1
-TOTAL TIME = TON + TOFF = 0.9 + 0.1 = 1
-FREQUENCY = 1 / (TOTAL TIME) = 1 / 1 = 1 Hz
-DUTY RATIO = TON / (TON + TOFF) = 0.9 / 1 = 0.9
+TON = 9 × 20 µs
+TON = 180 µs
+
+TOFF = 1 × 20 µs
+TOFF = 20 µs
+
+TOTAL TIME = 180 + 20 = 200 µs
+
+FREQUENCY = 1 / 200 µs = 5000 Hz
+
+DUTY RATIO = 180 / 200 = 0.9 (90%)
 ```
 
 ## Result :
